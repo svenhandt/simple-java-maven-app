@@ -25,10 +25,5 @@ pipeline {
                 bat './jenkins/scripts/deliver.bat' 
             }
         }
-        stage('Complete') { 
-            steps {
-                echo '1 Markusvene' 
-            }
-        }
     }
 }
